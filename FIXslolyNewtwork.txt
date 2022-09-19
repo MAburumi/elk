@@ -1,0 +1,6 @@
+apt install speedtest-cli
+sudo lshw -class network -short && nmcli devices status
+apt install network-manager
+sudo nano /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
+# in the nano change  to 2 
+
